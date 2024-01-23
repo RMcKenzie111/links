@@ -7,34 +7,66 @@
         padding-top: 40px;
         padding-bottom: 40px;
         background-color: #233D4D;
+        display: flex;
+        justify-content: center;
+        border: 4mm ridge rgba(252, 202, 70, 1);
       }
       .items {
         display: flex;
+        flex-direction: column;
+        gap: 35px;
+        max-width: 630px;
       }
       .name {
         color: #FE7F2D;
+        display: flex;
+        justify-content: center;
+      }
+
+      .social-icons{
+        display: flex;
+        justify-content: space-around;
       }
       .social-icons a {
-        color: #FCCA46;
+        color: #FE7F2D;
         text-decoration: none;
+       
       }
       .link {
-        color: #619B8A;
+        background-color: #619B8A;
+        display: flex;
+        align-items: center;
+        border: 4mm ridge rgba(254, 127, 45, .8);
+        padding: 5px;
       }
       .link a {
-        color: #619B8A;
+        color: #FCCA46;
         text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+      }
+
+      .banner{
+        display: flex;
+        justify-content: center;
       }
       .banner-image {
         width: 128px;
         height: 128px;
         object-fit: cover;
+        border-radius: 50% 20% / 10% 40%;
+        border-style: dotted;
+        border-color: #FCCA46;;
       }
 
       .thumbnail {
         width: 48px;
         height: 48px;
         object-fit: cover;
+        border-radius: 50% 20% / 10% 40%;
+        border-style: dotted;
+        border-color: #FCCA46;;
+
       }
       
     </style>
@@ -83,6 +115,18 @@
       src="https://wired.me/wp-content/uploads/2023/08/Microbial_Shoe_Modern_Synthesis_2023_copy-scaled.jpeg" class="thumbnail">
 
       <a target="_blank" href="https://wired.me/culture/biotextile-sustainable-fashion/">A biotextile created from bacteria is making waves in sustainable fashion — Wired</a>
+    </div>
+    <div class="link">
+      <img
+      src="https://i.pinimg.com/originals/13/a3/97/13a3971cff374f246a902583b2e735ba.jpg" class="thumbnail">
+
+      <a target="_blank" href="https://www.latimes.com/fashion/la-ig-rudi-gernreich-exhibition-skirball-fashion-exhibit-20190517-story.html">How L.A. designer Rudi Gernreich shifted fashion politics — LA Times</a>
+    </div>
+    <div class="link">
+      <img
+      src="https://hips.hearstapps.com/hmg-prod/images/el-pant2-0-64fd1c66c59d5.jpg?resize=980:*" class="thumbnail">
+
+      <a target="_blank" href="https://www.harpersbazaar.com/fashion/designers/a45012768/eckhaus-latta-unspun-spring-2024-runway/">Could These Pants Be a Sign of a Zero-Waste Future? — Harper's Bazaar</a>
     </div>
   </div>
   </body>
